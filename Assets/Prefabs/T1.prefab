@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 9120735598169204541}
   - component: {fileID: 936510978671446451}
   - component: {fileID: 1721964652583248692}
+  - component: {fileID: 77319193}
+  - component: {fileID: 77319194}
   m_Layer: 0
   m_Name: T1
   m_TagString: Untagged
@@ -99,3 +101,41 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.0022075772}
   m_Size: {x: 0.68, y: 1.046517}
   m_Direction: 0
+--- !u!50 &77319193
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990169173841039409}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &77319194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990169173841039409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fca81be8b0ccd4bbe94086f1c92202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 0}
+  _age: 0
+  _health: 0
+  _target: {fileID: 0}
+  _fitness: 0

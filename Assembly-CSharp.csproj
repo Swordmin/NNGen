@@ -55,8 +55,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\FieldBehavior.cs" />
     <Compile Include="Assets\Scripts\Cell.cs" />
-    <Compile Include="Assets\Scripts\NeuralNetwork.cs" />
     <Compile Include="Assets\Scripts\CellsManager.cs" />
+    <Compile Include="Assets\Scripts\NeuralNetwork.cs" />
+    <Compile Include="Assets\Scripts\Genome.cs" />
+    <Compile Include="Assets\Scripts\Food.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
